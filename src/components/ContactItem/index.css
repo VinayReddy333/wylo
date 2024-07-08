@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .post-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .create-post input,
+  .create-post textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .create-post button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .create-post button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 600px) {
+    .post-item h2 {
+      font-size: 1.2em;
+    }
+  
+    .post-item p {
+      font-size: 1em;
+    }
+  
+    .create-post input,
+    .create-post textarea {
+      font-size: 1em;
+    }
+  }
+  
+  /* Large screen styles */
+  @media (min-width: 601px) {
+    .post-item h2 {
+      font-size: 1.5em;
+    }
+  
+    .post-item p {
+      font-size: 1.2em;
+    }
+  
+    .create-post input,
+    .create-post textarea {
+      font-size: 1.2em;
+    }
+  }
+  
